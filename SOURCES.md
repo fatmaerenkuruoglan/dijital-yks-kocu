@@ -38,3 +38,33 @@ Bu bibliyografik kayıt rapordan aktarılmıştır; yayın künyesi ve tam metin
 Projenin final sunumu, **Fatmaeren Kuruoğlan ve Saliha Bayram** isimlerini proje ekibi olarak belirtir. Proje Bilişim Teknolojileri Uygulaması dersi kapsamındadır. Kişi bazında kod yazarlığı ve görev dağılımı belgelerden kesinleştirilmemiştir; tüm çalışmanın yalnızca tek kişi tarafından yazıldığı iddia edilmez.
 
 Bu pakette tam raporlar, sunumlar, kullanıcı kayıtları ve öğrenci numaraları yayımlanmamıştır. Üçüncü taraf içeriklere geliştiriciler adına yeni bir lisans verilmemiştir.
+
+
+## 6. Figma tasarım ve görsel referansları
+
+Aşağıdaki dosyalar proje geliştirilirken tasarım referansı veya uyarlama kaynağı olarak kullanılmıştır. Renkler, metinler, alanlar ve düzenler proje ihtiyaçlarına göre değiştirilmiştir. Bu şablonların, karakter görsellerinin ve tüm tasarım öğelerinin proje ekibi tarafından sıfırdan üretildiği iddia edilmez. Uygulamanın sunucu/veritabanı işlevleri ile arayüz tasarım referansları ayrı değerlendirilmelidir.
+
+Verilen bağlantılar kullanıcının Figma'da açtığı tasarım dosyalarına/kopyalarına aittir; doğrulanmış orijinal Community yayın sayfaları olarak sunulmaz. Erişim, dosyaların paylaşım ayarlarına bağlı olabilir.
+
+| Tasarım dosyası | Projede referans alınan bölüm / inceleme kapsamı |
+|---|---|
+| [Smart Education - Dashboard](https://www.figma.com/design/12o5OodiY6Un5Aec05Oiz4/Smart-Education---Dashboard--Community-) | Ana sayfa/özet paneli, yan menü, kartlar ve görseller. Logo ve karakter öğelerinin tasarım kaynağı da bu referans kapsamında belirtilir; ayrı öğe lisansları ayrıca kontrol edilmelidir. |
+| [LOGIFY - WEB LOGIN UI KIT](https://www.figma.com/design/o8Dob72ajZRFFzZOXMcC78/LOGIFY---WEB-LOGIN-UI-KIT--Community-) | Login 3 ve Login 3 Register tasarımları; giriş/kayıt ekranındaki masa başı karakteri ve iki sütunlu düzen. Aynı karakter şifre yenileme ekranında da kullanılmıştır. |
+| [Sign in & Sign up Page](https://www.figma.com/design/AFk6yXxgyzgupNDUuzEnwj/Sign-in---Sign-up-Page--Community---Community-) | Kullanıcının belirttiği giriş/kayıt arayüz referansı. Bu dosyadaki mavi soyut görseller, projedeki mor karakterin kaynağı değildir; karakter için LOGIFY kaydı geçerlidir. |
+| [Calendar Desktop and Mobile](https://www.figma.com/design/q3AwpCYsCyIxdzd8q8pxp4/Calendar-Desktop-and-Mobile--Community-) | Takvim sayfası, yan mini takvim ve renklerle ayrılan etkinlik/görev kartlarının tasarım referansı. |
+| [Pomodoro Timer](https://www.figma.com/design/FnVxVlmzyiB2PTE4SaiZlf/Pomodoro-Timer--Community-) | Pomodoro sayacı, başlat/sıfırla ve çalışma/mola süresi ayarları için kullanılan tasarım referansı. |
+| [31 Free Smart Charts Kit](https://www.figma.com/design/J5RCznweC7xYVUj90kp5sT/31-Free-Smart--Charts-Kit---If-you-enjoyed--Press-like-and-follow-Btn.--Community-) | Grafik tasarımı referansı. Figma tasarımındaki halka/sütun grafiklerinin görsel araştırması kapsamında belirtilmiştir; çalışan uygulamadaki grafikler Chart.js ile oluşturulur. |
+
+### Atıf ve lisans doğrulamasında kalan bilgiler
+
+Dosya adları ve kullanılan tasarım kopyalarının bağlantıları kaydedilmiştir. Her dosyanın orijinal Community yayın bağlantısı, tasarımcı adı ve kaynak özelindeki lisans bilgisi henüz doğrulanmamıştır. Bunlar doğrulanmadan atıf/lisans işlemlerinin bütünüyle tamamlandığı iddia edilmez. Görsel eşleşmesi, tasarımın yayıncısını veya ayrı görsellerin asıl üreticisini tek başına kanıtlamaz.
+
+Figma'nın [Community telif ve lisans açıklaması](https://help.figma.com/hc/en-us/articles/360042296374-Figma-Community-copyright-and-licensing), ücretsiz Community dosyaları için CC BY 4.0 çerçevesini açıklar. Bu genel açıklama, yukarıdaki belirli kopyaların veya içlerindeki tüm üçüncü taraf öğelerin lisansının doğrulandığı anlamına gelmez. Orijinal kaynak bulunduğunda tasarımcı, kaynak/lisans bağlantısı ve yapılan değişiklik bilgisiyle kayıt tamamlanmalıdır.
+
+## 7. Kullanılan arayüz kütüphaneleri
+
+- [Chart.js](https://www.chartjs.org/): Çalışma, konu ve deneme grafiklerinin oluşturulması.
+- [Font Awesome](https://fontawesome.com/): Arayüz simgeleri.
+- [Google Fonts](https://fonts.google.com/): Web yazı tipleri.
+
+Bunlar tasarım şablonlarından ayrı yazılım/font kaynaklarıdır; kendi lisans ve atıf koşulları geçerlidir. Sunumlarda kullanılan, uygulama paketinde bulunmayan diğer dekoratif görseller için bu liste tam bir görsel envanteri değildir.
