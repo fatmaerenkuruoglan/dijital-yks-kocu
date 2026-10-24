@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap - Dijital YKS Koçunuz</title>
+    <link rel="stylesheet" href="style.css"> <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-section">
+            <div class="form-wrapper">
+                <header>
+                    <p class="welcome-text">Hoşgeldiniz.</p>
+                    <h1>Giriş Yap</h1>
+                    <p class="login-link">Henüz bir hesabın yok mu? <br>
+                        <a href="register.html">Buradan kayıt olabilirsin!</a>
+                    </p>
+                </header>
+
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="email">E-posta</label>
+                        <div class="input-wrapper">
+                            <span class="icon">✉</span>
+                            <input type="email" id="email" placeholder="E-posta adresinizi girin" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+    <label for="sifre">Şifre</label>
+    <div class="input-wrapper password-wrapper">
+        <span class="icon">🔒</span>
+        <input type="password" id="sifre" placeholder="Şifrenizi girin" required>
+       <button type="button" id="togglePassword" class="eye-btn">🙈</button>
+    </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<div class="form-footer">
+    <label class="remember-box">
+        <input type="checkbox" id="rememberMe">
+        <span>Beni Hatırla</span>
+    </label>
+
+    <a href="forgot_password" class="forgot-link">Şifremi Unuttum?</a>
+</div>
+
+<button type="submit" class="register-btn">Giriş Yap</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="visual-section">
+            <div class="top-left-logo">
+                <img src="resimler/logo.png" alt="Logo" class="mini-logo">
+                <div class="logo-text">
+                   
+                </div>
+            </div>
+
+            <div class="brand-content">
+                <img src="resimler/karakter1.png" alt="3D Karakter" class="hero-image">
+                <div class="brand-text">
+                    
+                    <p>Çalışmalarına kaldığın yerden devam et.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

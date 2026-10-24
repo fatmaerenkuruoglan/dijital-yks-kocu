@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol - Dijital YKS Koçunuz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-section">
+            <div class="form-wrapper">
+                <header>
+                    <p class="welcome-text">Hoşgeldiniz.</p>
+                    <h1>Kayıt Ol</h1>
+                    <p class="login-link">Zaten bir hesabın var mı? <br>
+                        <a href="login.html">Buradan giriş yapabilirsin!</a>
+                    </p>
+                </header>
+
+                <form id="registerForm">
+                    <div class="input-group">
+                        <label for="ad">Adınız</label>
+                        <div class="input-wrapper">
+                            <span class="icon">👤</span>
+                            <input type="text" id="ad" placeholder="Adınızı girin" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="soyad">Soyadınız</label>
+                        <div class="input-wrapper">
+                            <span class="icon">👤</span>
+                            <input type="text" id="soyad" placeholder="Soyadınızı girin" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">E-posta</label>
+                        <div class="input-wrapper">
+                            <span class="icon">✉</span>
+                            <input type="email" id="email" placeholder="E-posta adresinizi girin" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="sifre">Şifre</label>
+                        <div class="input-wrapper">
+                            <span class="icon">🔒</span>
+                            <input type="password" id="sifre" placeholder="Şifrenizi girin" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirmSifre">Şifre Tekrar</label>
+                        <div class="input-wrapper">
+                            <span class="icon">🔒</span>
+                            <input type="password" id="confirmSifre" placeholder="Şifrenizi onaylayın" required>
+                        </div>
+                    </div>
+
+
+
+<div class="input-group">
+    <label for="dogum_gunu">Doğum Tarihi</label>
+    <div class="input-wrapper">
+        <span class="icon">📅</span>
+        <input type="date" id="dogum_gunu" required>
+    </div>
+</div>
+
+<div class="input-group">
+    <label for="city">Şehir</label>
+    <div class="input-wrapper">
+        <span class="icon">📍</span>
+        <select id="city" required>
+            <option value="" disabled selected>Şehir seçiniz</option>
+            <option>Adana</option>
+            <option>Adıyaman</option>
+            <option>Afyonkarahisar</option>
+            <option>Ağrı</option>
+            <option>Amasya</option>
+            <option>Ankara</option>
+            <option>Antalya</option>
+            <option>Artvin</option>
+            <option>Aydın</option>
+            <option>Balıkesir</option>
+            <option>Bilecik</option>
+            <option>Bingöl</option>
+            <option>Bitlis</option>
+            <option>Bolu</option>
+            <option>Burdur</option>
+            <option>Bursa</option>
+            <option>Çanakkale</option>
+            <option>Çankırı</option>
+            <option>Çorum</option>
+            <option>Denizli</option>
+            <option>Diyarbakır</option>
+            <option>Edirne</option>
+            <option>Elazığ</option>
+            <option>Erzincan</option>
+            <option>Erzurum</option>
+            <option>Eskişehir</option>
+            <option>Gaziantep</option>
+            <option>Giresun</option>
+            <option>Gümüşhane</option>
+            <option>Hakkari</option>
+            <option>Hatay</option>
+            <option>Isparta</option>
+            <option>Mersin</option>
+            <option>İstanbul</option>
+            <option>İzmir</option>
+            <option>Kars</option>
+            <option>Kastamonu</option>
+            <option>Kayseri</option>
+            <option>Kırklareli</option>
+            <option>Kırşehir</option>
+            <option>Kocaeli</option>
+            <option>Konya</option>
+            <option>Kütahya</option>
+            <option>Malatya</option>
+            <option>Manisa</option>
+            <option>Kahramanmaraş</option>
+            <option>Mardin</option>
+            <option>Muğla</option>
+            <option>Muş</option>
+            <option>Nevşehir</option>
+            <option>Niğde</option>
+            <option>Ordu</option>
+            <option>Rize</option>
+            <option>Sakarya</option>
+            <option>Samsun</option>
+            <option>Siirt</option>
+            <option>Sinop</option>
+            <option>Sivas</option>
+            <option>Tekirdağ</option>
+            <option>Tokat</option>
+            <option>Trabzon</option>
+            <option>Tunceli</option>
+            <option>Şanlıurfa</option>
+            <option>Uşak</option>
+            <option>Van</option>
+            <option>Yozgat</option>
+            <option>Zonguldak</option>
+            <option>Aksaray</option>
+            <option>Bayburt</option>
+            <option>Karaman</option>
+            <option>Kırıkkale</option>
+            <option>Batman</option>
+            <option>Şırnak</option>
+            <option>Bartın</option>
+            <option>Ardahan</option>
+            <option>Iğdır</option>
+            <option>Yalova</option>
+            <option>Karabük</option>
+            <option>Kilis</option>
+            <option>Osmaniye</option>
+            <option>Düzce</option>
+        </select>
+    </div>
+</div>
+
+
+                    <div class="input-group">
+                        <label for="cinsiyet">Cinsiyet</label>
+                        <div class="input-wrapper">
+                            <span class="icon">🚻</span>
+                            <select id="cinsiyet" required>
+                                <option value="" disabled selected>Seçiniz</option>
+                                <option value="Kadın">Kadın</option>
+                                <option value="Erkek">Erkek</option>
+                                <option value="Belirtmek İstemiyorum">Belirtmek İstemiyorum</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="register-btn">Kayıt Ol</button>
+                </form>
+                <div id="toast" class="toast"></div>
+            </div>
+        </div>
+
+        <div class="visual-section">
+            <div class="top-left-logo">
+                <img src="resimler/logo.png" alt="Logo" class="mini-logo">
+                <div class="logo-text">
+                    
+                </div>
+            </div>
+
+            <div class="brand-content">
+                <img src="resimler/karakter1.png" alt="3D Karakter" class="hero-image">
+                <div class="brand-text">
+                
+                    <p>Hedeflerine ulaşman için yanındayız.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

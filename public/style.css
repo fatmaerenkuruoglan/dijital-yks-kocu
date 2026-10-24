@@ -1,0 +1,497 @@
+/* ----------------------------KAYIT OL  ---------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 400px;
+}
+
+.welcome-text { color: #555; font-size: 14px; margin-bottom: 5px; }
+h1 { font-size: 36px; font-weight: 700; color: #1a1a2e; margin-bottom: 10px; }
+.login-link { font-size: 14px; color: #666; margin-bottom: 30px; }
+.login-link a { color: #4b39b5; text-decoration: none; font-weight: 600; }
+
+
+.input-group { margin-bottom: 20px; }
+.input-group label { display: block; font-size: 12px; color: #888; margin-bottom: 8px; }
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding: 8px 0;
+    transition: 0.3s;
+}
+.input-wrapper:focus-within { border-bottom: 2px solid #4b39b5; }
+.icon { margin-right: 12px; color: #aaa; }
+input, select {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    background: transparent;
+    color: #333;
+}
+
+
+.register-btn {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #4b39b5, #6a53e0);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(75, 57, 181, 0.2);
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.register-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(75, 57, 181, 0.3); }
+
+
+.visual-section {
+    flex: 1.2;
+    background-color: #1a132e;
+    position: relative; /* Logoyu konumlandırmak için önemli */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 0 0 40px;
+    color: white;
+    padding: 40px;
+}
+
+
+.top-left-logo {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.mini-logo {
+    width: 120px;   
+    height: 50px;
+}
+
+
+
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+
+.brand-content { text-align: center; }
+.hero-image {
+    max-width: 80%;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5));
+    animation: float 4s ease-in-out infinite;                 /*Animasyon için kullandım */
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+.brand-text h2 { font-size: 40px; margin-bottom: 10px; }
+.brand-text p { color: #aaa; font-size: 14px; }
+
+
+/*------------------------------------------LOGIN-------------------------------------------*/
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { height: 100vh; display: flex; overflow: hidden; }
+.main-container { display: flex; width: 100%; height: 100%; }
+
+/* Sol Panel */
+.form-section { flex: 1; display: flex; justify-content: center; align-items: center; padding: 40px; background: #fff; overflow-y: auto; }
+.form-wrapper { width: 100%; max-width: 400px; }
+.welcome-text { font-weight: 600; font-size: 14px; margin-bottom: 20px; }
+h1 { font-size: 32px; margin-bottom: 10px; }
+.login-link { font-size: 13px; color: #666; margin-bottom: 30px; }
+.login-link a { color: #4b39b5; text-decoration: none; font-weight: 600; }
+
+/* Inputlar */
+.input-group { margin-bottom: 20px; }
+.input-group label { display: block; font-size: 12px; color: #999; margin-bottom: 5px; }
+.input-wrapper { display: flex; align-items: center; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+.icon { margin-right: 10px; }
+input, select { border: none; outline: none; width: 100%; font-size: 14px; background: transparent; }
+
+
+.register-btn { 
+    width: 100%; padding: 15px; background: #4b39b5; color: white; 
+    border: none; border-radius: 25px; cursor: pointer; font-weight: 600; margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(75, 57, 181, 0.3);
+}
+
+.visual-section { flex: 1.2; background: #1a132e; border-radius: 40px 0 0 40px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 20px; }
+.logo-box { display: flex; align-items: center; gap: 10px; margin-bottom: 30px; }
+.brand-logo { width: 40px; }
+.hero-image { max-width: 70%; margin-bottom: 20px; }
+
+
+.top-left-logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.mini-logo { width: 35px; }
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/* Beni Hatırla - Şifremi Unuttum */
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0 28px;
+}
+
+.remember-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #666;
+    cursor: pointer;
+}
+
+.remember-box input {
+    width: 16px;
+    height: 16px;
+    accent-color: #4b39b5;
+    cursor: pointer;
+}
+
+.forgot-link {
+    font-size: 13px;
+    color: #4b39b5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+
+.top-left-logo {
+    position: absolute;
+    top: 48px;
+    left: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-logo {
+    width: 72px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
+}
+
+
+.visual-section {
+    flex: 1.2;
+    background: radial-gradient(circle at center, #24183d 0%, #181128 60%, #120d20 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px 0 0 45px;
+    color: white;
+    padding: 40px;
+}
+
+
+.brand-content {
+    width: 68%;
+    min-height: 620px;
+    background: rgba(255, 255, 255, 0.035);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.22);
+}
+
+.hero-image {
+    max-width: 78%;
+    margin-bottom: 35px;
+    filter: drop-shadow(0 24px 35px rgba(0,0,0,0.45));
+    animation: float 4s ease-in-out infinite;
+}
+
+.brand-text p {
+    color: #c8c2d8;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+
+
+.register-btn {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #4b39b5, #6b55e6);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 14px 30px rgba(75, 57, 181, 0.28);
+    transition: 0.25s ease;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 35px rgba(75, 57, 181, 0.35);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.input-wrapper select {
+    padding-right: 25px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+    transition: 0.3s;
+}
+
+.input-wrapper:focus-within {
+    border-bottom: 2px solid #4b39b5;
+}
+
+.input-wrapper:has(select)::after {
+    content: "⌄";
+    position: absolute;
+    right: 6px;
+    font-size: 18px;
+    color: #4b39b5;
+    pointer-events: none;
+}
+
+input {
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+    background-color: transparent !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
+input[type="password"] {
+    letter-spacing: 3px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.eye-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px;
+    color: #4b39b5;
+}
+
+.toast {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    min-width: 260px;
+    padding: 14px 18px;
+    border-radius: 14px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+    opacity: 0;
+    transform: translateY(-15px);
+    pointer-events: none;
+    transition: 0.3s ease;
+    z-index: 9999;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast.success {
+    background: #22c55e;
+}
+
+.toast.error {
+    background: #ef4444;
+}
+
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0 30px;
+}
+
+.remember-box {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    user-select: none;
+}
+
+.remember-box input {
+    width: 18px;
+    height: 18px;
+    accent-color: #5b46d6;
+    cursor: pointer;
+}
+
+.forgot-link {
+    font-size: 14px;
+    color: #5b46d6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.forgot-link:hover {
+    color: #3f2bb8;
+    text-decoration: underline;
+}
+
+/* ---------------- ŞİFRE SIFIRLAMA SAYFASI ---------------- */
+
+.forgot-card {
+    background: white;
+    width: 520px;
+    min-height: 620px;
+    padding: 55px;
+    border-radius: 32px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forgot-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1d1d1d;
+    margin-bottom: 12px;
+}
+
+.forgot-desc {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.forgot-back {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.forgot-back a {
+    color: #4b39b5;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forgot-back a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .visual-section {
+        display: none;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .forgot-card {
+        width: 100%;
+        padding: 30px;
+    }
+}

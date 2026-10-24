@@ -1,0 +1,39 @@
+# Gizli ayarlar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.npmrc
+# Bagimliliklar, yerel ayarlar, ciktilar
+node_modules/
+.vscode/
+.idea/
+coverage/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+# Veritabani ve kullanici dosyalari
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+*.sql.gz
+uploads/
+backups/
+
+# Yerel raporlar ve veri dosyalari
+*.csv
+*.xlsx
+*.docx
+*.pptx
+*.pdf
+*.zip
